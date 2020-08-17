@@ -1,10 +1,14 @@
 * {
     padding: 0;
-    border: 0;
+    margin: 0;
 }
 
 :root {
-    --header-background: #159eb9
+    --header-background: #159eb9;
+    --vertical-baner: #093041;
+    --box-borders: #156886;
+    --vertical-text: #8fa4b3;
+    --bar-color: #17a2be;
 }
 
 #header {
@@ -17,10 +21,285 @@
     width: 250px;
     height: 80px;
     padding-left: 500px;
-    padding-top: 20px;
+    padding-top: 60px;
     color: white;
 }
 
+#bottom {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bar-color);
+    margin-top: 69.75%;
+    overflow: hidden;
+}
 
+#vertical {
+    background-color: var(--vertical-baner);
+    height: 170vh;
+    width: 300px;
+    margin-top: -150px;
+    margin-bottom: -40px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
 
+#vertical img {
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid white;
+}
+
+.contact {
+    border: 2px solid var(--box-borders);
+    width: 80%; 
+    margin: 20px auto;
+
+}
+
+.contact h3 {
+    display: flex;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+}
+
+.text_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.text_contact h4 {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.phone {
+    display: flex;
+    color: var(--vertical-text);
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.e-mail {
+    display: flex;
+    color: var(--vertical-text);
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.local {
+    display: flex;
+    color: var(--vertical-text);
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.skillstitle {
+    border: 2px solid var(--box-borders);
+    width: 80%; 
+    margin: 20px auto;
+
+}
+
+.skillstitle h3 {
+    display: flex;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+}
+
+.skillst {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.skills1t, .skills2t, .skills3t, .skills4t {
+    color: var(--vertical-text);
+}
+
+.bar {
+    border: 1px solid white;
+    width: 41%;
+    height: 15px;
+}
+
+.realbar1 {
+    width: 80%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbar2 {
+    width: 90%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbar3 {
+    width: 60%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+.realbar4 {
+    width: 80%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.softitle {
+    border: 2px solid var(--box-borders);
+    width: 80%; 
+    margin: 20px auto;
+}
+
+.softitle h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.softlist {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.soft {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.softitle0, .softitle1, .softitle2, .softitle3, .softitle4 {
+    color: var(--vertical-text);
+}
+
+.barsoft {
+    border: 1px solid white;
+    width: 41%;
+    height: 15px;
+}
+
+.realbarsoft0 {
+    width: 100%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbarsoft1 {
+    width: 70%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbarsoft2 {
+    width: 80%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbarsoft3 {
+    width: 40%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbarsoft4 {
+    width: 40%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.langtitle {
+    border: 2px solid var(--box-borders);
+    width: 80%;
+    margin: 20px auto;
+}
+
+.langtitle h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.langlist {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.lang0title, .lang1title, .lang2title {
+    color: var(--vertical-text);
+}
+
+.barlang {
+    border: 1px solid white;
+    width: 41%;
+    height: 15px;
+}
+
+.realbarlang0 {
+    width: 100%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbarlang1 {
+    width: 90%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.realbarlang2 {
+    width: 50%;
+    height: 15px;
+    background-color: var(--bar-color);
+}
+
+.hobbies {
+    border: 2px solid var(--box-borders);
+    width: 80%;
+    margin: 20px auto;
+}
+
+.hobbies h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.hobbiescontent h4 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: var(--vertical-text);
+}
 
