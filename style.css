@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: arial;
 }
 
 :root {
@@ -9,6 +10,11 @@
     --box-borders: #156886;
     --vertical-text: #8fa4b3;
     --bar-color: #17a2be;
+    --baner-title: #395e65;
+    --baner-subtitle: #40b3c5;
+    --baner-body: #797272;
+    --background-item-color: #1ea1be;
+    --icon-color: #fefdfe;
 }
 
 #header {
@@ -20,17 +26,9 @@
 .name {
     width: 250px;
     height: 80px;
-    padding-left: 500px;
+    padding-left: 420px;
     padding-top: 60px;
     color: white;
-}
-
-#bottom {
-    width: 100%;
-    height: 40px;
-    background-color: var(--bar-color);
-    margin-top: 69.75%;
-    overflow: hidden;
 }
 
 #vertical {
@@ -132,7 +130,7 @@
 
 .bar {
     border: 1px solid white;
-    width: 41%;
+    width: 36%;
     height: 15px;
 }
 
@@ -192,7 +190,7 @@
 
 .barsoft {
     border: 1px solid white;
-    width: 41%;
+    width: 36%;
     height: 15px;
 }
 
@@ -259,7 +257,7 @@
 
 .barlang {
     border: 1px solid white;
-    width: 41%;
+    width: 36%;
     height: 15px;
 }
 
@@ -303,3 +301,55 @@
     color: var(--vertical-text);
 }
 
+.bottom {
+    width: 100%;
+    height: 40px;
+    background-color: var(--header-background);
+    bottom: 0;
+    position: relative;
+}
+
+#info {
+    height: 140vh;
+}
+
+.aboutme, .education, .work, .links {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-left: 420px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.aboutmetitle, .educationtitle, .worktitle, .linkstitle {
+    display: flex;
+}
+
+.aboutmetitle h2, .educationtitle h2, .worktitle h2, .linkstitle h2 {
+    color: var(--baner-title);
+    padding-left: 10px;
+}
+
+.aboutmetext, .educationtext, .worktext, .linkstext {
+    color: var(--baner-body);
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.aboutmetitle span, .educationtitle span, .worktitle span, .linkstitle span {
+    background: var(--background-item-color);
+    border-radius: 50%;
+    color: var(--icon-color);
+    width: 25px;
+    padding: 2px;
+}
+
+.linkstext i {
+    font-size: 25px;
+    color: var(--baner-subtitle);
+}
+
+.linkstext a {
+    padding-left: 2px;
+}
