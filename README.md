@@ -4,6 +4,6 @@
  <h1>Português:</h1>
  <div>Layout de única página (fixa) onde recrio um currículo, porém, mais interativo com links ativos e hospedado na web. Deixo também todo o código kernel da página em open source aqui no github. Site ancorado no firebase.</div>
 <h1>English: </h1>
-<div>Singlepage layout where i rematched a curriculum, but a bit more interactive with active links and hoisted on web. Also, make available the kernel code from the page here, at github. Site hoisted on firebase hoosting.</div>
+<div>Singlepage layout where i rematched a curriculum, but a bit more interactive with active links and hoisted on web. Also, make available the kernel code from the page here, at github. Site hoisted on firebase.</div>
 
 
